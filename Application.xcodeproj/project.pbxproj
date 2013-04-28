@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9304D7DE28434A06B3602C0E /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F094F9255DE44E997E85FD2 /* libPods.a */; };
 		C360EB07172B2E3700406C62 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C360EB06172B2E3700406C62 /* UIKit.framework */; };
 		C360EB09172B2E3700406C62 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C360EB08172B2E3700406C62 /* Foundation.framework */; };
 		C360EB0B172B2E3700406C62 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C360EB0A172B2E3700406C62 /* CoreGraphics.framework */; };
@@ -19,9 +20,13 @@
 		C360EB20172B2E3800406C62 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C360EB1E172B2E3800406C62 /* MainStoryboard_iPhone.storyboard */; };
 		C360EB23172B2E3800406C62 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C360EB21172B2E3800406C62 /* MainStoryboard_iPad.storyboard */; };
 		C360EB26172B2E3800406C62 /* DMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C360EB25172B2E3800406C62 /* DMViewController.m */; };
+		C3789407172C828B00F5E78E /* DMCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3789406172C828B00F5E78E /* DMCollectionViewController.m */; };
+		C378940A172DD28800F5E78E /* DMTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3789409172DD28800F5E78E /* DMTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3F094F9255DE44E997E85FD2 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		64FA6BA9C04B4B54A716BF81 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = SOURCE_ROOT; };
 		C360EB03172B2E3700406C62 /* Application.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Application.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C360EB06172B2E3700406C62 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		C360EB08172B2E3700406C62 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -39,6 +44,10 @@
 		C360EB22172B2E3800406C62 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		C360EB24172B2E3800406C62 /* DMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMViewController.h; sourceTree = "<group>"; };
 		C360EB25172B2E3800406C62 /* DMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMViewController.m; sourceTree = "<group>"; };
+		C3789405172C828B00F5E78E /* DMCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCollectionViewController.h; sourceTree = "<group>"; };
+		C3789406172C828B00F5E78E /* DMCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCollectionViewController.m; sourceTree = "<group>"; };
+		C3789408172DD28800F5E78E /* DMTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMTableViewController.h; sourceTree = "<group>"; };
+		C3789409172DD28800F5E78E /* DMTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -49,6 +58,7 @@
 				C360EB07172B2E3700406C62 /* UIKit.framework in Frameworks */,
 				C360EB09172B2E3700406C62 /* Foundation.framework in Frameworks */,
 				C360EB0B172B2E3700406C62 /* CoreGraphics.framework in Frameworks */,
+				9304D7DE28434A06B3602C0E /* libPods.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -61,6 +71,7 @@
 				C360EB0C172B2E3700406C62 /* Application */,
 				C360EB05172B2E3700406C62 /* Frameworks */,
 				C360EB04172B2E3700406C62 /* Products */,
+				64FA6BA9C04B4B54A716BF81 /* Pods.xcconfig */,
 			);
 			sourceTree = "<group>";
 		};
@@ -78,6 +89,7 @@
 				C360EB06172B2E3700406C62 /* UIKit.framework */,
 				C360EB08172B2E3700406C62 /* Foundation.framework */,
 				C360EB0A172B2E3700406C62 /* CoreGraphics.framework */,
+				3F094F9255DE44E997E85FD2 /* libPods.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -89,8 +101,12 @@
 				C360EB16172B2E3800406C62 /* DMAppDelegate.m */,
 				C360EB1E172B2E3800406C62 /* MainStoryboard_iPhone.storyboard */,
 				C360EB21172B2E3800406C62 /* MainStoryboard_iPad.storyboard */,
+				C3789405172C828B00F5E78E /* DMCollectionViewController.h */,
+				C3789406172C828B00F5E78E /* DMCollectionViewController.m */,
 				C360EB24172B2E3800406C62 /* DMViewController.h */,
 				C360EB25172B2E3800406C62 /* DMViewController.m */,
+				C3789408172DD28800F5E78E /* DMTableViewController.h */,
+				C3789409172DD28800F5E78E /* DMTableViewController.m */,
 				C360EB0D172B2E3700406C62 /* Supporting Files */,
 			);
 			path = Application;
@@ -120,6 +136,7 @@
 				C360EAFF172B2E3700406C62 /* Sources */,
 				C360EB00172B2E3700406C62 /* Frameworks */,
 				C360EB01172B2E3700406C62 /* Resources */,
+				64C8BB1960764A5AA6E95B13 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -173,6 +190,23 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		64C8BB1960764A5AA6E95B13 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C360EAFF172B2E3700406C62 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -181,6 +215,8 @@
 				C360EB13172B2E3800406C62 /* main.m in Sources */,
 				C360EB17172B2E3800406C62 /* DMAppDelegate.m in Sources */,
 				C360EB26172B2E3800406C62 /* DMViewController.m in Sources */,
+				C3789407172C828B00F5E78E /* DMCollectionViewController.m in Sources */,
+				C378940A172DD28800F5E78E /* DMTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -274,6 +310,7 @@
 		};
 		C360EB2A172B2E3800406C62 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64FA6BA9C04B4B54A716BF81 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Application/Application-Prefix.pch";
@@ -285,6 +322,7 @@
 		};
 		C360EB2B172B2E3800406C62 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 64FA6BA9C04B4B54A716BF81 /* Pods.xcconfig */;
 			buildSettings = {
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Application/Application-Prefix.pch";
@@ -313,6 +351,7 @@
 				C360EB2B172B2E3800406C62 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

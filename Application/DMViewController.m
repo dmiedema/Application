@@ -9,6 +9,15 @@
 #import "DMViewController.h"
 
 @interface DMViewController ()
+@property (nonatomic, strong) IBOutlet UILabel *projectsLabel;
+@property (nonatomic, strong) IBOutlet UILabel *aboutLabel;
+@property (nonatomic, strong) IBOutlet UILabel *interestsLabel;
+@property (nonatomic, strong) IBOutlet UILabel *educationLabel;
+@property (nonatomic, strong) IBOutlet UILabel *professionalLabel;
+@property (nonatomic, strong) IBOutlet UILabel *skillsLabel;
+
+
+@property (nonatomic, strong) IBOutlet UILabel *contentLabel;
 
 @end
 
@@ -18,6 +27,10 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    
+    // scroll view to hold it all
+    // label to describe
+    // button to view more (optional)
 }
 
 - (void)didReceiveMemoryWarning
