@@ -10,4 +10,6 @@
 
 @interface DMCollectionViewController : UICollectionViewController
 
+@property (nonatomic, strong) NSMutableArray *contentsArray;
+
 @end

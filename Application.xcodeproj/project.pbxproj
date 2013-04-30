@@ -20,8 +20,26 @@
 		C360EB20172B2E3800406C62 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C360EB1E172B2E3800406C62 /* MainStoryboard_iPhone.storyboard */; };
 		C360EB23172B2E3800406C62 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C360EB21172B2E3800406C62 /* MainStoryboard_iPad.storyboard */; };
 		C360EB26172B2E3800406C62 /* DMViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C360EB25172B2E3800406C62 /* DMViewController.m */; };
-		C3789407172C828B00F5E78E /* DMCollectionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3789406172C828B00F5E78E /* DMCollectionViewController.m */; };
 		C378940A172DD28800F5E78E /* DMTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C3789409172DD28800F5E78E /* DMTableViewController.m */; };
+		C382FF12172F5492006D9BD8 /* DMBackground.m in Sources */ = {isa = PBXBuildFile; fileRef = C382FF11172F5492006D9BD8 /* DMBackground.m */; };
+		C382FF14172F54C8006D9BD8 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C382FF13172F54C8006D9BD8 /* QuartzCore.framework */; };
+		C382FF17172F6B69006D9BD8 /* DMButtonWithArgs.m in Sources */ = {isa = PBXBuildFile; fileRef = C382FF16172F6B69006D9BD8 /* DMButtonWithArgs.m */; };
+		C382FF1C172F871A006D9BD8 /* buttonNormal.png in Resources */ = {isa = PBXBuildFile; fileRef = C382FF18172F8719006D9BD8 /* buttonNormal.png */; };
+		C382FF1D172F871A006D9BD8 /* buttonNormal@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C382FF19172F8719006D9BD8 /* buttonNormal@2x.png */; };
+		C382FF1E172F871A006D9BD8 /* buttonHighlight.png in Resources */ = {isa = PBXBuildFile; fileRef = C382FF1A172F8719006D9BD8 /* buttonHighlight.png */; };
+		C382FF1F172F871A006D9BD8 /* buttonHighlight@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C382FF1B172F8719006D9BD8 /* buttonHighlight@2x.png */; };
+		C382FF2B172FA782006D9BD8 /* Untitled 2-Artwork.png in Resources */ = {isa = PBXBuildFile; fileRef = C382FF21172FA782006D9BD8 /* Untitled 2-Artwork.png */; };
+		C382FF2C172FA782006D9BD8 /* Untitled 2-Artwork@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C382FF22172FA782006D9BD8 /* Untitled 2-Artwork@2x.png */; };
+		C382FF2D172FA782006D9BD8 /* Untitled 2-iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = C382FF23172FA782006D9BD8 /* Untitled 2-iPad.png */; };
+		C382FF2E172FA782006D9BD8 /* Untitled 2-iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C382FF24172FA782006D9BD8 /* Untitled 2-iPad@2x.png */; };
+		C382FF2F172FA782006D9BD8 /* Untitled 2-Small-iPad.png in Resources */ = {isa = PBXBuildFile; fileRef = C382FF25172FA782006D9BD8 /* Untitled 2-Small-iPad.png */; };
+		C382FF30172FA782006D9BD8 /* Untitled 2-Small-iPad@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C382FF26172FA782006D9BD8 /* Untitled 2-Small-iPad@2x.png */; };
+		C382FF31172FA782006D9BD8 /* Untitled 2-Small.png in Resources */ = {isa = PBXBuildFile; fileRef = C382FF27172FA782006D9BD8 /* Untitled 2-Small.png */; };
+		C382FF32172FA782006D9BD8 /* Untitled 2-Small@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C382FF28172FA782006D9BD8 /* Untitled 2-Small@2x.png */; };
+		C382FF33172FA782006D9BD8 /* Untitled 2.png in Resources */ = {isa = PBXBuildFile; fileRef = C382FF29172FA782006D9BD8 /* Untitled 2.png */; };
+		C382FF34172FA782006D9BD8 /* Untitled 2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C382FF2A172FA782006D9BD8 /* Untitled 2@2x.png */; };
+		C382FF36172FA79D006D9BD8 /* Untitled 2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C382FF35172FA79D006D9BD8 /* Untitled 2@2x.png */; };
+		C382FF38172FA7A9006D9BD8 /* Untitled 2.png in Resources */ = {isa = PBXBuildFile; fileRef = C382FF37172FA7A9006D9BD8 /* Untitled 2.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,10 +62,29 @@
 		C360EB22172B2E3800406C62 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
 		C360EB24172B2E3800406C62 /* DMViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DMViewController.h; sourceTree = "<group>"; };
 		C360EB25172B2E3800406C62 /* DMViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DMViewController.m; sourceTree = "<group>"; };
-		C3789405172C828B00F5E78E /* DMCollectionViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMCollectionViewController.h; sourceTree = "<group>"; };
-		C3789406172C828B00F5E78E /* DMCollectionViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMCollectionViewController.m; sourceTree = "<group>"; };
 		C3789408172DD28800F5E78E /* DMTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMTableViewController.h; sourceTree = "<group>"; };
 		C3789409172DD28800F5E78E /* DMTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMTableViewController.m; sourceTree = "<group>"; };
+		C382FF10172F5491006D9BD8 /* DMBackground.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMBackground.h; sourceTree = "<group>"; };
+		C382FF11172F5492006D9BD8 /* DMBackground.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMBackground.m; sourceTree = "<group>"; };
+		C382FF13172F54C8006D9BD8 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		C382FF15172F6B68006D9BD8 /* DMButtonWithArgs.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMButtonWithArgs.h; sourceTree = "<group>"; };
+		C382FF16172F6B69006D9BD8 /* DMButtonWithArgs.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMButtonWithArgs.m; sourceTree = "<group>"; };
+		C382FF18172F8719006D9BD8 /* buttonNormal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonNormal.png; sourceTree = "<group>"; };
+		C382FF19172F8719006D9BD8 /* buttonNormal@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buttonNormal@2x.png"; sourceTree = "<group>"; };
+		C382FF1A172F8719006D9BD8 /* buttonHighlight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = buttonHighlight.png; sourceTree = "<group>"; };
+		C382FF1B172F8719006D9BD8 /* buttonHighlight@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "buttonHighlight@2x.png"; sourceTree = "<group>"; };
+		C382FF21172FA782006D9BD8 /* Untitled 2-Artwork.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Untitled 2-Artwork.png"; sourceTree = "<group>"; };
+		C382FF22172FA782006D9BD8 /* Untitled 2-Artwork@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Untitled 2-Artwork@2x.png"; sourceTree = "<group>"; };
+		C382FF23172FA782006D9BD8 /* Untitled 2-iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Untitled 2-iPad.png"; sourceTree = "<group>"; };
+		C382FF24172FA782006D9BD8 /* Untitled 2-iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Untitled 2-iPad@2x.png"; sourceTree = "<group>"; };
+		C382FF25172FA782006D9BD8 /* Untitled 2-Small-iPad.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Untitled 2-Small-iPad.png"; sourceTree = "<group>"; };
+		C382FF26172FA782006D9BD8 /* Untitled 2-Small-iPad@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Untitled 2-Small-iPad@2x.png"; sourceTree = "<group>"; };
+		C382FF27172FA782006D9BD8 /* Untitled 2-Small.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Untitled 2-Small.png"; sourceTree = "<group>"; };
+		C382FF28172FA782006D9BD8 /* Untitled 2-Small@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Untitled 2-Small@2x.png"; sourceTree = "<group>"; };
+		C382FF29172FA782006D9BD8 /* Untitled 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Untitled 2.png"; sourceTree = "<group>"; };
+		C382FF2A172FA782006D9BD8 /* Untitled 2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Untitled 2@2x.png"; sourceTree = "<group>"; };
+		C382FF35172FA79D006D9BD8 /* Untitled 2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Untitled 2@2x.png"; sourceTree = "<group>"; };
+		C382FF37172FA7A9006D9BD8 /* Untitled 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Untitled 2.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C382FF14172F54C8006D9BD8 /* QuartzCore.framework in Frameworks */,
 				C360EB07172B2E3700406C62 /* UIKit.framework in Frameworks */,
 				C360EB09172B2E3700406C62 /* Foundation.framework in Frameworks */,
 				C360EB0B172B2E3700406C62 /* CoreGraphics.framework in Frameworks */,
@@ -68,6 +106,9 @@
 		C360EAFA172B2E3700406C62 = {
 			isa = PBXGroup;
 			children = (
+				C382FF37172FA7A9006D9BD8 /* Untitled 2.png */,
+				C382FF35172FA79D006D9BD8 /* Untitled 2@2x.png */,
+				C382FF13172F54C8006D9BD8 /* QuartzCore.framework */,
 				C360EB0C172B2E3700406C62 /* Application */,
 				C360EB05172B2E3700406C62 /* Frameworks */,
 				C360EB04172B2E3700406C62 /* Products */,
@@ -97,12 +138,19 @@
 		C360EB0C172B2E3700406C62 /* Application */ = {
 			isa = PBXGroup;
 			children = (
+				C382FF20172FA781006D9BD8 /* Untitled 2 */,
 				C360EB15172B2E3800406C62 /* DMAppDelegate.h */,
 				C360EB16172B2E3800406C62 /* DMAppDelegate.m */,
+				C382FF18172F8719006D9BD8 /* buttonNormal.png */,
+				C382FF19172F8719006D9BD8 /* buttonNormal@2x.png */,
+				C382FF1A172F8719006D9BD8 /* buttonHighlight.png */,
+				C382FF1B172F8719006D9BD8 /* buttonHighlight@2x.png */,
 				C360EB1E172B2E3800406C62 /* MainStoryboard_iPhone.storyboard */,
 				C360EB21172B2E3800406C62 /* MainStoryboard_iPad.storyboard */,
-				C3789405172C828B00F5E78E /* DMCollectionViewController.h */,
-				C3789406172C828B00F5E78E /* DMCollectionViewController.m */,
+				C382FF15172F6B68006D9BD8 /* DMButtonWithArgs.h */,
+				C382FF16172F6B69006D9BD8 /* DMButtonWithArgs.m */,
+				C382FF10172F5491006D9BD8 /* DMBackground.h */,
+				C382FF11172F5492006D9BD8 /* DMBackground.m */,
 				C360EB24172B2E3800406C62 /* DMViewController.h */,
 				C360EB25172B2E3800406C62 /* DMViewController.m */,
 				C3789408172DD28800F5E78E /* DMTableViewController.h */,
@@ -124,6 +172,23 @@
 				C360EB1C172B2E3800406C62 /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C382FF20172FA781006D9BD8 /* Untitled 2 */ = {
+			isa = PBXGroup;
+			children = (
+				C382FF21172FA782006D9BD8 /* Untitled 2-Artwork.png */,
+				C382FF22172FA782006D9BD8 /* Untitled 2-Artwork@2x.png */,
+				C382FF23172FA782006D9BD8 /* Untitled 2-iPad.png */,
+				C382FF24172FA782006D9BD8 /* Untitled 2-iPad@2x.png */,
+				C382FF25172FA782006D9BD8 /* Untitled 2-Small-iPad.png */,
+				C382FF26172FA782006D9BD8 /* Untitled 2-Small-iPad@2x.png */,
+				C382FF27172FA782006D9BD8 /* Untitled 2-Small.png */,
+				C382FF28172FA782006D9BD8 /* Untitled 2-Small@2x.png */,
+				C382FF29172FA782006D9BD8 /* Untitled 2.png */,
+				C382FF2A172FA782006D9BD8 /* Untitled 2@2x.png */,
+			);
+			path = "Untitled 2";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -185,6 +250,22 @@
 				C360EB1D172B2E3800406C62 /* Default-568h@2x.png in Resources */,
 				C360EB20172B2E3800406C62 /* MainStoryboard_iPhone.storyboard in Resources */,
 				C360EB23172B2E3800406C62 /* MainStoryboard_iPad.storyboard in Resources */,
+				C382FF1C172F871A006D9BD8 /* buttonNormal.png in Resources */,
+				C382FF1D172F871A006D9BD8 /* buttonNormal@2x.png in Resources */,
+				C382FF1E172F871A006D9BD8 /* buttonHighlight.png in Resources */,
+				C382FF1F172F871A006D9BD8 /* buttonHighlight@2x.png in Resources */,
+				C382FF2B172FA782006D9BD8 /* Untitled 2-Artwork.png in Resources */,
+				C382FF2C172FA782006D9BD8 /* Untitled 2-Artwork@2x.png in Resources */,
+				C382FF2D172FA782006D9BD8 /* Untitled 2-iPad.png in Resources */,
+				C382FF2E172FA782006D9BD8 /* Untitled 2-iPad@2x.png in Resources */,
+				C382FF2F172FA782006D9BD8 /* Untitled 2-Small-iPad.png in Resources */,
+				C382FF30172FA782006D9BD8 /* Untitled 2-Small-iPad@2x.png in Resources */,
+				C382FF31172FA782006D9BD8 /* Untitled 2-Small.png in Resources */,
+				C382FF32172FA782006D9BD8 /* Untitled 2-Small@2x.png in Resources */,
+				C382FF33172FA782006D9BD8 /* Untitled 2.png in Resources */,
+				C382FF34172FA782006D9BD8 /* Untitled 2@2x.png in Resources */,
+				C382FF36172FA79D006D9BD8 /* Untitled 2@2x.png in Resources */,
+				C382FF38172FA7A9006D9BD8 /* Untitled 2.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -215,8 +296,9 @@
 				C360EB13172B2E3800406C62 /* main.m in Sources */,
 				C360EB17172B2E3800406C62 /* DMAppDelegate.m in Sources */,
 				C360EB26172B2E3800406C62 /* DMViewController.m in Sources */,
-				C3789407172C828B00F5E78E /* DMCollectionViewController.m in Sources */,
 				C378940A172DD28800F5E78E /* DMTableViewController.m in Sources */,
+				C382FF12172F5492006D9BD8 /* DMBackground.m in Sources */,
+				C382FF17172F6B69006D9BD8 /* DMButtonWithArgs.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +398,7 @@
 				GCC_PREFIX_HEADER = "Application/Application-Prefix.pch";
 				INFOPLIST_FILE = "Application/Application-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -328,6 +411,7 @@
 				GCC_PREFIX_HEADER = "Application/Application-Prefix.pch";
 				INFOPLIST_FILE = "Application/Application-Info.plist";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
