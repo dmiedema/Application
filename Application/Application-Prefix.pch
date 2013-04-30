@@ -8,7 +8,14 @@
 #warning "This project uses features only available in iOS SDK 5.0 and later."
 #endif
 
+// contants
+#define DICTIONARY_TITLE           @"title"
+#define DICTIONARY_SUBTITLE        @"subtitle"
+#define DICTIONARY_DESCRIPTION     @"description"
+#define DICTIONARY_SUB_DESCRIPTION @"subdescription"
+
 #ifdef __OBJC__
     #import <UIKit/UIKit.h>
     #import <Foundation/Foundation.h>
+    #import <QuartzCore/QuartzCore.h>
 #endif
