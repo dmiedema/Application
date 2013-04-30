@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface DMViewController : UICollectionViewController
+@interface DMViewController : UIViewController
+
+@property (nonatomic, strong) NSArray *contentsArray;
 
 @end
