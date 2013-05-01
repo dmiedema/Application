@@ -8,6 +8,7 @@
 
 #import "DMTableViewController.h"
 #import "DMViewController.h"
+#import "DMBackground.h"
 
 @interface DMTableViewController ()
 
@@ -243,7 +244,9 @@
     UILabel *label = [[UILabel alloc] initWithFrame:CGRectMake(20, 0, 280, 73)];
     [label setFont:[UIFont fontWithName:@"Avenir" size:24.0f]];
     [label setText:[PAGE_CONTENTS objectAtIndex:[indexPath row]]];
+    [label setBackgroundColor:[UIColor clearColor]];
     [cell addSubview:label];
+
 //    [cell setTag:[indexPath row]];
     return cell;
 }

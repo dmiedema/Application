@@ -50,11 +50,11 @@
         
         //// Set up label properties
         // title label
-        //    [[titleLabel layer] setShadowColor:[[UIColor blackColor] CGColor]];
-        //    [[titleLabel layer] setShadowRadius:1.0f];
-        //    [[titleLabel layer] setShadowOpacity:1];
-        //    [[titleLabel layer] setShadowOffset:CGSizeZero];
-        //    [[titleLabel layer] setMasksToBounds:NO];
+//        [[titleLabel layer] setShadowColor:[[UIColor whiteColor] CGColor]];
+//        [[titleLabel layer] setShadowRadius:1.0f];
+//        [[titleLabel layer] setShadowOpacity:1];
+//        [[titleLabel layer] setShadowOffset:CGSizeZero];
+//        [[titleLabel layer] setMasksToBounds:NO];
         [titleLabel setFont:[UIFont fontWithName:@"Avenir" size:32.0]];
         [titleLabel setAdjustsFontSizeToFitWidth:YES];
         [titleLabel setMinimumScaleFactor:.1];
