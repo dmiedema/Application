@@ -9,8 +9,11 @@
 #import "DMViewController.h"
 #import "DMButtonWithArgs.h"
 #import "DMBackground.h"
+#import "SVProgressHUD.h"
 
-@interface DMViewController ()
+@interface DMViewController () <UIWebViewDelegate>
+
+@property (nonatomic, strong) UIWebView *webview;
 
 @end
 
@@ -135,14 +138,24 @@
     NSLog(@"WHOA LAOD IT");
     NSLog(@"Link %@", [sender link]);
     NSURLRequest *request = [NSURLRequest requestWithURL:[NSURL URLWithString:[sender link]]];
-    UIWebView *webview = [[UIWebView alloc] init];
-    [webview loadRequest:request];
-    [webview setFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height)];
-    [webview setScalesPageToFit:YES];
+    _webview = [[UIWebView alloc] init];
+    [_webview loadRequest:request];
+    [_webview setFrame:CGRectMake(0, 0, self.view.frame.size.width, self.view.frame.size.height)];
+    [_webview setScalesPageToFit:YES];
+    [_webview setDelegate:self];
     UIViewController *viewController = [[UIViewController alloc] init];
-    [viewController setView:webview];
+    [viewController setView:_webview];
     [[self navigationController] pushViewController:viewController animated:YES];
 }
+
+- (void)webViewDidStartLoad:(UIWebView *)webView {
+    [SVProgressHUD show];
+}
+
+- (void)webViewDidFinishLoad:(UIWebView *)webView {
+    [SVProgressHUD dismiss];
+}
+
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
